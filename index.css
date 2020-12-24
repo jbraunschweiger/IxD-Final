@@ -1,0 +1,43 @@
+.scroll-box {
+    overflow-y: scroll;
+    height: 340px;
+    padding: 1rem
+}
+
+h2 {
+    margin-bottom: 10;
+}
+
+h4 {
+    margin-bottom: 20;
+    margin-top: 20;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-caption {
+    color:          white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
